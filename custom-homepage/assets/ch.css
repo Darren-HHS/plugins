@@ -1,0 +1,441 @@
+.ch-hero {
+    position: relative;
+    height: calc(100vh - 80px);
+    top: -80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media only screen and (max-width: 600px) {
+    .ch-hero {
+        height: auto;
+    }
+}
+
+.ch-hero .widget-title:before {
+    display: none !important;
+}
+
+.ch-hero .widget-title {
+    margin-bottom: 5px !important;
+    text-align: center !important;
+    color: white !important;
+    font-size: 3rem !important;
+    font-weight: 300 !important;
+    text-shadow: 0 2px 2px #424242;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.428571429;
+    text-transform: none !important;
+}
+
+.ch-hero .widget-wrapper {
+    max-width: 1070px;
+    margin: 0 auto;
+    padding: 5rem 0;
+}
+
+.ch-hero #wiidoo_searcher {
+    border: none !important;
+    background-color: rgba(255,255,255,0.3);
+    padding: 2rem;
+}
+
+.ch-hero .w3-third {
+    border: none !important;
+    padding: 5px;
+}
+
+.ch-hero #roh_results,.ch-hero #roh_spinner,.ch-hero .roh-pager,.ch-hero #wii_search_footer {
+    background-color: rgba(255,255,255,0.3);
+    display: none;
+}
+
+/*.ch-hero #roh_results {*/
+/*    display: none;*/
+/*}*/
+
+
+.ch-homepage .widget_ept-prop-cat-grid{
+    max-width: 1150px;
+    margin: 0 auto !important;
+}
+
+.ch-homepage .widget_ept-prop-cat-grid .widget-title {
+    padding: 20px 10px;
+    margin-bottom: 20px;
+    line-height: 20px;
+    color: #797979;
+    font-size: 1.55rem;
+    font-weight: 300;
+    text-align: center;
+    border-bottom: 1px solid lightgray;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.ch-homepage .widget_ept-prop-cat-grid .widget-title:before {
+    display: none;
+}
+
+.ch-homepage #section-sitemap #sitemap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.ch-homepage #section-sitemap #sitemap .column {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 18%;
+}
+
+.ch-homepage #section-sitemap #sitemap .column a.city {
+    margin-bottom: 12px;
+    color: #151515;
+    font-weight: 600;
+}
+
+.ch-homepage #section-sitemap #sitemap .column a {
+    display: block;
+    margin-bottom: 6px;
+    color: #0088CC;
+    font-weight: 600;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.ch-homepage #section-sitemap #sitemap .column a {
+    display: block;
+    margin-bottom: 6px;
+    color: #0088CC;
+    font-weight: 600;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.ch-homepage #section-sitemap .content-width {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+.ch-homepage #section-sitemap {
+    width: 100%;
+    padding: 60px 0;
+    margin-bottom: -30px;
+    background-color: white;
+    overflow: hidden;
+}
+
+.ch-homepage #section-sitemap #sitemap .column a span {
+    display: block;
+    margin-top: -2px;
+    color: #797979;
+    font-size: 0.8rem;
+    font-weight: normal;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .ch-homepage #section-sitemap #sitemap .column a.city {
+        position: relative;
+        display: block;
+        padding: 5px 30px 6px 10px;
+        margin-bottom: 0;
+        font-size: 18px;
+        font-size: 1.25rem;
+        font-weight: 300;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .ch-homepage #section-sitemap .content-width {
+        width: 100%;
+    }
+    .ch-homepage #section-sitemap #sitemap .column a.city:after {
+        position: absolute;
+        top: 15px;
+        right: 10px;
+        color: #EF6014;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        font-size: 22px;
+        font-size: 1.55rem;
+        content: ">";
+        speak: none;
+        font-style: normal;
+        font-weight: normal;
+        font-variant: normal;
+        text-transform: none;
+        line-height: 1;
+        vertical-align: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        padding: 0 10px 10px 10px;
+    }
+    .ch-homepage #section-sitemap #sitemap .column a.ch-active:after {
+        transform: rotate(90deg);
+        transition: .3s all;
+        padding-bottom: 0;
+    }
+    .ch-active {
+        text-decoration: none !important;
+        background-color: aliceblue;
+    }
+    .ch-sub-areas-js a {
+        padding: 10px 10px 5px 10px;
+        margin-bottom: 0 !important;
+    }
+}
+
+/*@media only screen and (max-width: 600px) {*/
+/*    .ch-homepage  #section-sitemap #sitemap .column a {*/
+/*        display: none;*/
+/*    }*/
+/*}*/
+@media only screen and (max-width: 600px) {
+    .ch-homepage  .ch-sub-areas-js {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .ch-homepage  #section-sitemap #sitemap {
+        display: block;
+        -webkit-box-shadow: 0 0 1px #b5b5b5;
+        box-shadow: 0 0 1px #b5b5b5;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .ch-homepage .content-width {
+        padding: 0 !important;
+    }
+    .ch-homepage #section-sitemap #sitemap .column a.city {
+        position: relative;
+        display: block;
+        padding: 5px 30px 6px 10px;
+        margin-bottom: 0;
+        font-size: 18px;
+        font-size: 1.25rem;
+        font-weight: 600;
+    }
+    .ch-homepage #section-sitemap #sitemap .column {
+        width: 100% !important;
+        margin: 0;
+        border-bottom: 1px solid #ebebeb;
+    }
+}
+
+.ch-homepage #section-sitemap #sitemap .column a:hover {
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 1180px) {
+    .ch-homepage #section-sitemap .content-width {
+        width: 100%;
+        padding: 0 2rem;
+    }
+    .ch-homepage .widget_ept-prop-cat-grid {
+        width: 100%;
+        padding: 0 15px;
+    }
+    .ch-homepage .ept-prop-cat__item {
+        flex: 0 0 33.3%;
+        max-width: 33.3%;
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+    .ch-hero .widget-wrapper {
+        width: 90%;
+        padding: 5rem 15px;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .ch-homepage #section-sitemap #sitemap .column {
+        width: 23%;
+    }
+    .ch-homepage .ept-prop-cat__item {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media only screen and (max-width: 690px) {
+    .ch-homepage .ept-prop-cat__item {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .ch-homepage .content-width {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+button.gm-ui-hover-effect {
+    visibility: hidden;
+}
+
+
+.ch-hero #wiidoo_searcher #search_but{
+    width: 130px;
+    height: 60px;
+    line-height: 58px;
+    font-size: 24px;
+    font-weight: 300;
+    color: white;
+    background-color: #c34c0d;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: inline-block;
+    height: 52px;
+    line-height: 29px;
+    padding: 0 13px 0 13px;
+    margin: 0;
+    border-radius: 3px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: #FCFCFC;
+    background-color: #EF6014;
+    border-style: none;
+    cursor: pointer;
+    outline: none;
+    vertical-align: top;
+    -webkit-font-smoothing: antialiased;
+}
+
+.ch-hero #wiidoo_searcher #search_but:hover {
+    background-color: #f67e3c !important;
+    color: #FCFCFC !important;
+}
+
+.ch-hero #Seekor2,.ch-hero .wii-ref {
+    height: 52px;
+    align-items: center;
+    justify-content: center;
+}
+
+.ch-hero #Seekor2:hover, .ch-hero .wii-ref:hover, .ch-hero #Seekor3:hover {
+    background-color: transparent !important;
+}
+.ch-hero #Seekor2:focus, .ch-hero .wii-ref:focus, .ch-hero #Seekor3:focus {
+    outline: none !important;
+}
+@media only screen and (max-width: 600px) {
+    .wii-adv {
+        padding: 0 !important;
+    }
+    .ch-hero #Seekor3 {
+        margin-bottom: 5px;
+        outline: none !important;
+    }
+    .ch-hero .widget-title {
+        font-size: 2rem !important;
+        margin-top: 2rem !important;
+    }
+    .ch-hero .widget-wrapper {
+        padding: 2rem 0;
+    }
+    .ch-hero {
+        height: auto;
+        top: auto;
+        background-position: center;
+    }
+    .ch-homepage #section-sitemap {
+        margin-bottom: 0;
+        padding: 0;
+    }
+    .ept-prop-cat__content h3 {
+        font-size: 1.6rem;
+    }
+}
+
+.ch-homepage .panel-grid {
+    background-color: white;
+}
+
+.ch-homepage .widget_ch-homepage-map .content-width {
+    max-width: 100% !important;
+}
+@media only screen and (max-width: 400px) {
+
+    .ch-homepage .ept-prop-cat__content h3 {
+        font-size: 1.35rem;
+    }
+    .ch-homepage .ept-prop-cat-btn {
+    	    padding: 4px 10px !important;
+    }
+}
+
+#ch-homepage > p {
+ display: none;
+}
+
+#ch-homepage .panel-layout > p {
+ display: none;
+}
+
+#wii_search_head a, #wii_search_footer a{
+color: black;
+}
+
+.gm-style-iw-c:has(> div > div >div.ch-city) {
+    background: transparent !important;
+    box-shadow: none;
+    top: 8px;
+    padding: 0;
+}
+
+.gm-style-iw-d:has( > div >div.ch-city) {
+    overflow: unset !important;
+}
+
+.gm-style-iw-a:has(> div > div > div > div >div.ch-city) .gm-style-iw-tc:after{
+    display: none;
+}
+
+.ch-city {
+    font-weight: bold;
+}
+
+.gm-style-iw-c:has(> div > div >div.sotogrande) {
+    top: 6px;
+left: -5px;
+}
+
+.gm-style-iw-c:has(> div > div >div.duquesa) {
+    top: 6px;
+}
+
+.gm-style-iw-c:has(> div > div >div.estepona) {
+    top: 6px;
+}
+
+.gm-style-iw-c:has(> div > div >div.cabopino) {
+    top: 6px;
+}
+
+
